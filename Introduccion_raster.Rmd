@@ -32,7 +32,7 @@ if (!require(sf)) install.packages('sf',dependencies=T)
 library(sf)
 if (!require(rgdal)) install.packages('rgdal',dependencies=T)
 library(rgdal)
-if (!require(tidyverse)) install.packages('rgdal',dependencies=T)
+if (!require(tidyverse)) install.packages('tidyverse',dependencies=T)
 library(tidyverse)
 ```
 Iniciaremos cargando un modelo digital de elevación.   
